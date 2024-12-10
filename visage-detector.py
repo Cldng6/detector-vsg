@@ -9,9 +9,9 @@ def connect_to_db():
     try:
         # Remplacez les informations suivantes par vos propres informations de connexion
         connection = mysql.connector.connect(
-            host='nome_de_votre_serveur',  # Nom du serveur MySQL
-            database='nome_de_votre_base_de_donnees',  # Nom de la base de données MySQL
-            user='user',  # Nom d'utilisateur MySQL
+            host='localhost',  # Nom du serveur MySQL
+            database='tester_db',  # Nom de la base de données MySQL
+            user='root',  # Nom d'utilisateur MySQL
             password='mot de passe'  # Votre mot de passe MySQL
         )
         if connection.is_connected():
