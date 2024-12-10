@@ -7,7 +7,7 @@
 
 ## Installer des packages dans l'environnement virtuel
     pip install opencv-python
-    pip install mysql-connector-pythonpip
+    pip install mysql-connector-python
     pip3 install dlib
 
 ## executer le script dans l'environnement virtuel
