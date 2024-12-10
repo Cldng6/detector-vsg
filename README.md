@@ -22,4 +22,22 @@
 ## Supprimer l'environnement virtuel
     rm -rf nom_de_votre_environnement
 
+
+# Creation de database
+    assure vous que database est deja installer...
+
+    mysql -u root -p
+        """
+            CREATE DATABASE tester_db;
+
+            USE tester_db;
+
+            CREATE TABLE faces (
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                name VARCHAR(255) NOT NULL,
+                face_encoding BLOB NOT NULL
+            );
+        """
+
+
 En dev....................................................
